@@ -1,0 +1,82 @@
+
+How to Create a Java Project in Eclipse
+=========================================
+
+1. Create a new Eclipse Project from the main menu:
+Option A. File -> New -> Java Project
+(If Java Project not available in menu selection, then use Option B)
+Option B. File -> New -> Project -> Java, Java Project, then Click Next
+For both Options...
+- Type in the Project name - (e.g Week Two HelloWorld)
+- Ensure "Use an execution environment JRE: shows as JavaSE-17 (otherwise select it)
+- Ensure that "Create module-info.java file" is unchecked
+- Click Next
+- If you are presented with the Java Settings Dialogue Box, click on the Source tab
+  - Place a check mark beside "Allow output folders for source folders"
+  - Uncheck "Create module-info.java file
+- Click Finish
+
+Note: If you are presented with the New module-info.java Dialogue Box,
+   - Click the "Don't Create Button" to skip this. (If you accidently create the module,
+     you will have to delete the project and start over because your software will not
+     correctly compile and execute)
+
+2. Create a class file in the Project:
+- In the Package Explorer View Window, navigate to Project Name -> src (e.g. Week Two HelloWorld -> src)
+- Right-click on the src folder, then -> New -> class
+- DO NOT type in a Package name
+- Type in the class name - e.g. HelloWorld
+- optionally place a check mark beside "public static void main(String[] args)"
+  Note: Not all classes have a main method
+- optonally click "Generate comments" 
+- Click Finish
+- The Eclipse Editor window now opens and displays our class HelloWorld, which contains a method called "main"
+- You may now type in the remaining java code into the editor window or follow the steps below to import a java code
+
+
+How to Import a Java Source Code File into Eclipse - Cut and Paste Method
+=========================================================================
+
+1. Delete all existing code in the editor by using keystrokes <CTRL> <A>, <CTRL> <D>
+2. Cut and paste the java source code from notepad into the class file (easiest way)
+
+3. Import Java Source Code into the class file
+- Cut and paste the Brightspace Week One Lecture Module HelloWorld.java source code from notepad into the class file (easiest way)
+- In notepad usd keystrokes <CTRL> <A>, <CTRL> <C>
+- In the Eclipse Editor, use keystroke <CTRL> <V>
+
+How to Import Existing Projects into Eclipse
+============================================
+
+1. Click on File -> Import
+2. Select > General -> Existing Project into Workspace
+3. Click on Next
+4. Now Browse to Select root directory e.g. Week Nine
+5. Click on Select Folder
+6. The projects windows shows the available project. Select them, as desired.
+7. Click on Finish
+
+How to Import a Java Source Code File into Eclipse - From an Existing Project
+=============================================================================
+
+1. This would be typically used when the course code has been modified outside of the Eclipse environment
+   and it is now desired to import it from your hard drive.
+2. After opening the original HelloWorld Project,
+- Right-click on the Class file (e.g. HelloWorld)
+- From the Import Dialogue Box, Select "General -> File System"
+- Click Next
+- Click Browse to find the folder where the file resides (you must know this beforehand)
+- Once the Folder is found, click on "Select folder"
+- Click on the applicabe source file (e.g. HelloWorld.java)
+- Ensure "Into folder" contains the Project name/src (e.g. Week Two HelloWorld/src"
+- Check "Overwrite existing resources without warning"
+- Click Finish 
+- Double click on the class name to load the java source code into the Eclipse editor (e.g. HelloWorld)
+
+
+
+
+
+
+
+
